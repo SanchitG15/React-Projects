@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 550px;
+    height: 704px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.card--image{
+
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.card{
+       padding: 20px; 
+}
+
+.card--stats{
+    float: right;
+}
+
+.card--locationImage{
+    
+    width: 7px;
+    height: 9.55px;
+    left: calc(50% - 7px/2 - 87.5px);
+    top: calc(50% - 9.55px/2 - 227.23px);
+    background: #DADADA;
+}
+
+.card--location{
+    float: "right";
+    width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 119px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2B283A;
+}
+
+.card--title{
+    
+    width: 326px;
+    height: 40px;
+    left: 184px;
+    top: 136px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.card--description{
+
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: 203px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+
+
+    color: #2B283A;
+}
+
+.card--date{
+
+    width: 319px;
+    height: 11px;
+    left: 184px;
+    top: 183px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A
+}
+
